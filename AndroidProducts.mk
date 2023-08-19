@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_oakland_64.mk
+    $(LOCAL_DIR)/twrp_oakland_64.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_oakland_64-user \
-    omni_oakland_64-userdebug \
-    omni_oakland_64-eng
+    twrp_oakland_64-user \
+    twrp_oakland_64-userdebug \
+    twrp_oakland_64-eng
