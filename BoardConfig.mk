@@ -73,7 +73,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
 BOARD_SUPER_PARTITION_GROUPS := tcl_dynamic_partitions
-BOARD_TCL_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product odm preload oem
+BOARD_TCL_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product system_ext
 BOARD_TCL_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
 # Platform
@@ -94,7 +94,7 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP-Specific configuration
 TW_THEME := portrait_hdpi
-TW_DEVICE_VERSION := Twrp 3.7 build by kelexine @XDA
+TW_DEVICE_VERSION := by kelexine @XDA
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_USES_MKE2FS := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
